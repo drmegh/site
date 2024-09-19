@@ -3804,26 +3804,6 @@ input, select, textarea {
 		}
 
 
-		@media screen and (max-width: 1280px) {
-
-			#wrapper > section.intro > header > * {
-				transition: transform 1s ease, opacity 1s ease;
-			}
-
-			body.is-preload #wrapper > section.intro > header {
-				transform: none;
-			}
-
-				body.is-preload #wrapper > section.intro > header > * {
-					transform: translate(-0.5rem);
-					opacity: 0;
-				}
-
-			body.is-preload #wrapper > section.intro > .content {
-				transform: none;
-			}
-
-		}
 
 	body.is-ie #wrapper section {
 		display: flex;
